@@ -16,5 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nombre, apellidos, telefono, listar;
+
+            nombre = tTelefono.Text;
+            apellidos = tApellidos.Text;
+            telefono = tTelefono.Text;
+            listar = "Nombre: "nombre + " Apellidos: " + apellidos + " Telefono: " + telefono;
+
+            tListaSocios = tListaSocios + listar + "\n";
+
+        }
     }
 }
